@@ -1,6 +1,6 @@
 Step 1
 You would first need to look for your CSE 15L account, and in order to do that, you first need to reset your password. Wait for around 15 minutes so your account can activate.  Under Account Lookup, type in your UCSD username and student ID, and on the next page, change your password. 
-![Image]
+![Image](
 
 Step 2
 If you do not have Visual Studio Code, you would then need to download it. Press the download button in the top right corner, and download the program according to your type of computer. 

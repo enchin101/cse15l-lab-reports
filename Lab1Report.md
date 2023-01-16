@@ -9,9 +9,7 @@ After you open Visual Studio Code, you should see something like this.
 
 
 Step 3
-We can now connect your account to VS Code. Click New File, and make a new terminal. In your terminal, type in ss cs15lwi23zz@ieng6.ucsd.edu, but replace “zz” with the letters in your course specific account. Type in yes to the message that pops up, and then type in your password. If you have successfully done this, you should see this in your terminal. 
-
-
+We can now connect your account to VS Code. Click New File, and make a new terminal. In your terminal, type in ss cs15lwi23zz@ieng6.ucsd.edu, but replace “zz” with the letters in your course specific account. Type in yes to the message that pops up, and then type in your password. If you have successfully done this, you should see this in your terminal.
 
 
 Step 4

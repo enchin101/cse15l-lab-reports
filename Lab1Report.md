@@ -1,7 +1,7 @@
 Step 1:
 
 You would first need to look for your CSE 15L account, and in order to do that, you first need to reset your password. Wait for around 15 minutes so your account can activate.  Under Account Lookup, type in your UCSD username and student ID, and on the next page, change your password. 
-![Link](file:///Users/ethanchin/Desktop/AccountLookup.png)
+[Link](https://ibb.co/fdFC2Vw)
 
 Step 2:
 

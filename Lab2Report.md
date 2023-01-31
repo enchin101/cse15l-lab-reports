@@ -1,6 +1,10 @@
  # **Part 1**
  ![Image](CodeForStringServer.png)
  
+ ![Image](FirstAddMessage.png)
+ 
+ ![Image](SecondAddMessage.png)
+ 
  # **Part 2**
  For lab 3, a failure-inducing input for the ReverseInPlace method would be {1,2,3}. Its symptom is {3,2,3}. An input that doesn't induce a failure would be {1}.
  

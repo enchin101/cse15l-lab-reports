@@ -5,10 +5,13 @@
  
  ![Image](FirstAddMessage.png)
  
+ My main and HandlerRequest method was called. The relevant argument would be add message = "s". The values of this class would be "hello." The values of this request change only if the user explicitly changes the string.
  
  
  
  ![Image](SecondAddMessage.png)
+ 
+ This second add message is essentially the same as the first added message. The arguments and the values are the same.
  
  
  # **Part 2**
@@ -31,7 +34,6 @@
  An input that doesn't induce a failure would be {1}.
  
  ```
- # code block
  @Test
  public void testReversed(){
      int[] input = {1};

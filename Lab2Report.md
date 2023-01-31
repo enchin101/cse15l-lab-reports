@@ -2,9 +2,14 @@
  
  ![Image](CodeForStringServer.png)
  
+ 
  ![Image](FirstAddMessage.png)
  
+ 
+ 
+ 
  ![Image](SecondAddMessage.png)
+ 
  
  # **Part 2**
  
@@ -12,22 +17,48 @@
  
  # code block
  @Test
- public void testReverseInPlace(){
+ public void testReversed(){
      int[] input = {1, 2, 3};
-     ArrayExamples.reverseInPlace(input);
+     ArrayExamples.reversed(input);
      assertArrayEquals(new int[]{3, 2, 1}, input);
+ 
  
  Its symptom is {3,2,3}. 
  
  
  An input that doesn't induce a failure would be {1}.
+ 
  # code block
  @Test
- public void testReverseInPlace(){
+ public void testReversed(){
      int[] input = {1};
-     ArrayExamples.reverseInPlace(input);
+     ArrayExamples.reversed(input);
      assertArrayEquals(new int[]{1}, input);
  
+ 
+ This would be the bug before I made the changes.
+ 
+ # code block
+ static int[] reversed(int[] arr){
+      int[] newArray = new int[arr.length];
+      for (int i = 0; i < arr.length; i++){
+          arr[i] = newArray[arr.length -i -1];
+          }
+          return arr;
+        }
+ 
+ This is the revised code.
+ 
+ # code block
+ static int[] reversed(int[] arr){
+      int[] newArray = new int[arr.length];
+      for (int i = 0; i < arr.length; i++){
+        newArray[i] = arr[arr.length - i -1];
+      }
+      return newArray;
+    }
+    
+ This new code works because in the old code, the elements in newArray are not the same as the elements in arr. In the new code, this issue is fixed.
  
  
  # **Part 3**

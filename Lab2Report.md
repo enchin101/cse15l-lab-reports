@@ -29,14 +29,14 @@
  
  
  An input that doesn't induce a failure would be {1}.
- 
+ ```
  # code block
  @Test
  public void testReversed(){
      int[] input = {1};
      ArrayExamples.reversed(input);
      assertArrayEquals(new int[]{1}, input);
- 
+ ```
  
  
  This would be the bug before I made the changes.

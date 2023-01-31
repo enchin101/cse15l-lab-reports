@@ -16,7 +16,7 @@
  
  # **Part 2**
  
- For lab 3, a failure-inducing input for the ReverseInPlace method would be {1,2,3}. The code for these inputs is the following.
+ For lab 3, a failure-inducing input for the ReverseIn method would be {1,2,3}. The code for these inputs is the following.
  
  ```
  @Test

@@ -23,7 +23,9 @@
      assertArrayEquals(new int[]{3, 2, 1}, input);
  
  
- Its symptom is {3,2,3}. 
+ Its symptom is {0,0,0}. 
+ 
+ ![Image](FirstInput.png)
  
  
  An input that doesn't induce a failure would be {1}.

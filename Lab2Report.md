@@ -38,7 +38,9 @@
      assertArrayEquals(new int[]{1}, input);
  
  
+ 
  This would be the bug before I made the changes.
+ 
  
  # code block
  static int[] reversed(int[] arr){
@@ -49,7 +51,15 @@
           return arr;
         }
  
+ 
+ 
+ 
+ 
  This is the revised code.
+ 
+ 
+ 
+ 
  
  # code block
  static int[] reversed(int[] arr){

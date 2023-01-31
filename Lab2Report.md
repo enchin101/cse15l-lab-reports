@@ -16,7 +16,6 @@
  For lab 3, a failure-inducing input for the ReverseInPlace method would be {1,2,3}. The code for these inputs is the following.
  
  ```
- # code block
  @Test
  public void testReversed(){
      int[] input = {1, 2, 3};
@@ -43,7 +42,6 @@
  This would be the bug before I made the changes.
  
  ```
- # code block
  static int[] reversed(int[] arr){
       int[] newArray = new int[arr.length];
       for (int i = 0; i < arr.length; i++){
@@ -56,7 +54,6 @@
  This is the revised code.
 
  ```
- # code block
  static int[] reversed(int[] arr){
       int[] newArray = new int[arr.length];
       for (int i = 0; i < arr.length; i++){

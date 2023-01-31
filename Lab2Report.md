@@ -15,13 +15,14 @@
  
  For lab 3, a failure-inducing input for the ReverseInPlace method would be {1,2,3}. The code for these inputs is the following.
  
+ ```
  # code block
  @Test
  public void testReversed(){
      int[] input = {1, 2, 3};
      ArrayExamples.reversed(input);
      assertArrayEquals(new int[]{3, 2, 1}, input);
- 
+ ```
  
  Its symptom is {0,0,0}. 
  
@@ -29,6 +30,7 @@
  
  
  An input that doesn't induce a failure would be {1}.
+ 
  ```
  # code block
  @Test
@@ -38,10 +40,9 @@
      assertArrayEquals(new int[]{1}, input);
  ```
  
- 
  This would be the bug before I made the changes.
  
- 
+ ```
  # code block
  static int[] reversed(int[] arr){
       int[] newArray = new int[arr.length];
@@ -50,17 +51,11 @@
           }
           return arr;
         }
- 
- 
- 
- 
+ ```
  
  This is the revised code.
- 
- 
- 
- 
- 
+
+ ```
  # code block
  static int[] reversed(int[] arr){
       int[] newArray = new int[arr.length];
@@ -69,7 +64,8 @@
       }
       return newArray;
     }
-    
+  ```  
+  
  This new code works because in the old code, the elements in newArray are not the same as the elements in arr. In the new code, this issue is fixed.
  
  

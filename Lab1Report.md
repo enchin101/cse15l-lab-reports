@@ -24,7 +24,7 @@ We can now connect your account to VS Code. Click New File, and make a new termi
 
 Step 4:
 
-Try to input some commands and see what happens. Here’s an example of the command ls-lat.
+Try to input some commands and see what happens. Here’s an example of the command ls-lat. This command is useful because it allows us to see the contents of the current working directory. It gives us a list of the files and folders of the given path. 
 
 ![Image](Command.png)
 

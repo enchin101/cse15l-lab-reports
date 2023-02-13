@@ -4,6 +4,7 @@
 
 The find - name option is useful because it helps us find the name of the files that contain the name you want.
 
+
 Example 1: 
 
 Input: 
@@ -20,6 +21,7 @@ Output:
 
 Here, the find - name command helps us find any file that contains ch5.txt.
 
+
 Example 2:
 
 ```
@@ -34,7 +36,7 @@ Output:
 ./written_2/non-fiction/OUP/Kauffman/ch3.txt
 ```
 
-Herem the find - name command helps us find any file that contains ch3.txt.
+Here, the find - name command helps us find any file that contains ch3.txt.
 
 
 ## Option 2: Find - size
@@ -55,6 +57,7 @@ Output:
 ```
 
 Here, the find - size +50k helps us find any txt file in the Abernathy file that is bigger than 50 KB.
+
 
 Example 2:
 

@@ -19,7 +19,7 @@ Output:
 ./written_2/non-fiction/OUP/Fletcher/ch5.txt
 ```
 
-Here, the find - name command helps us find any file that contains ch5.txt.
+Here, the find - name command helps us find any file that contains the text ch5.
 
 
 Example 2:
@@ -36,7 +36,7 @@ Output:
 ./written_2/non-fiction/OUP/Kauffman/ch3.txt
 ```
 
-Here, the find - name command helps us find any file that contains ch3.txt.
+Here, the find - name command helps us find any file that contains the text ch3.
 
 
 ## Option 2: Find - size
@@ -56,7 +56,7 @@ Output:
 ./non-fiction/OUP/Abernathy/ch8.txt
 ```
 
-Here, the find - size +50k helps us find any txt file in the Abernathy file that is bigger than 50 KB.
+Here, the find - size +50k helps us find any txt file in the Abernathy folder that is bigger than 50 KB.
 
 
 Example 2:
@@ -84,7 +84,7 @@ Here, the find - size +10k returns any txt file in the Abernathy file that is bi
 
 ## Option 3: Find - type
 
-The find - type command helps us find files of a specific type.
+The find - type command is useful because it helps us find files of a specific type.
 
 Example 1:
 
@@ -131,6 +131,51 @@ Output:
 ./non-fiction/OUP/Abernathy/ch14.txt
 ```
 
-Here, the command find -type f helps us find the files under the Abernathy file.
+Here, the command find -type f helps us find the files under the Abernathy folder.
 
 ## Option 4: 
+
+The find -mtime command is useful because it helps us find the files that were modified during the time you specify.
+
+Example 1:
+
+Input:
+```
+find ./non-fiction/OUP/Abernathy -mtime -15
+```
+
+Output: 
+```
+./non-fiction/OUP/Abernathy
+./non-fiction/OUP/Abernathy/ch2.txt
+./non-fiction/OUP/Abernathy/ch3.txt
+./non-fiction/OUP/Abernathy/ch1.txt
+./non-fiction/OUP/Abernathy/ch7.txt
+./non-fiction/OUP/Abernathy/ch6.txt
+./non-fiction/OUP/Abernathy/ch8.txt
+./non-fiction/OUP/Abernathy/ch9.txt
+./non-fiction/OUP/Abernathy/ch15.txt
+./non-fiction/OUP/Abernathy/ch14.txt
+```
+
+Here, the find -mtime -15 helps us find any files in the Abernathy folder that were modified in the last 15 days.
+
+Example 2:
+
+Input:
+```
+find ./non-fiction/OUP/Berk -mtime -20
+```
+
+Output: 
+```
+./non-fiction/OUP/Berk
+./non-fiction/OUP/Berk/ch2.txt
+./non-fiction/OUP/Berk/ch1.txt
+./non-fiction/OUP/Berk/CH4.txt
+./non-fiction/OUP/Berk/ch7.txt
+```
+
+Here, the find -mtime -20 helps us find any files in the Berk folder that were modified in the last 20 days.
+
+I used ChatGPT to help me with this lab report.

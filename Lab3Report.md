@@ -19,13 +19,13 @@ Output:
 ./written_2/non-fiction/OUP/Fletcher/ch5.txt
 ```
 
-Here, the find - name command helps us find any file that contains the text ch5.
+Here, the find - name command helps us find any file with the name "ch5.txt"
 
 
 Example 2:
 
 ```
-find . -name "ch4.txt"
+find . -name "ch3.txt"
 ```
 
 Output:
@@ -36,7 +36,7 @@ Output:
 ./written_2/non-fiction/OUP/Kauffman/ch3.txt
 ```
 
-Here, the find - name command helps us find any file that contains the text ch3.
+Here, the find - name command helps us find any file with the name "ch3.txt"
 
 
 ## Option 2: Find - size

@@ -9,7 +9,7 @@ ssh cs15lwi23ari@ieng6.ucsd.edu
 
 This is what it looks like in VS Code.
 
-![Image]
+![Image](LogIn.png)
 
 ## Step 5
 I then cloned the fork of the repository from my Github account. I had to type in this.
@@ -17,8 +17,9 @@ I then cloned the fork of the repository from my Github account. I had to type i
 ```
 git clone git@github.com:enchin101/lab7.git
 ```
+This is what it looks like in VS Code.
 
-Insert Image here.
+![Image](CloningFork.png)
 
 ## Step 6
 I then ran the tests to demonstrate that the code fails. To run this, I had to type in these lines of code.
@@ -29,5 +30,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
 
-Insert Image Here.
 This is what it looks like in VS Code.
+
+![Image](RunningTests.png)
+

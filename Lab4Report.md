@@ -52,15 +52,21 @@ Here's what it looks like on VS Code.
 
 ## Step 8
 
-In order to run the tests again, I pressed the up arrow twice to access
+In order to run the tests again, I pressed the up arrow twice to access this command because it was 2 up in the search history.
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 ```
-I then pressed the down arrow once to access 
+I then pressed the down arrow once to access it was the first thing in the search history. 
 ```
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
+So for this test, the keys that I pressed were <up> <up> <enter>, and then <down> <enter>.
 
 These are the passed tests on VS Code.
 
 ![Image](TestsPassed.png)
+  
+## Step 9
+To commit and push the changes to my Github account, you just have to presh commit changes on your github desktop page.
+
+Here's what it looks like.

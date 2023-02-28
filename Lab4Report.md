@@ -34,3 +34,30 @@ This is what it looks like in VS Code.
 
 ![Image](RunningTests.png)
 
+## Step 7
+I then had to correct the code so that it would pass the tests. The only thing I changed was in line 43, where I changed 
+
+```
+index1 += 1
+````
+to this
+
+```
+index2 += 2
+```
+
+Here's what it looks like on VS Code.
+
+Image Here
+
+## Step 8
+
+In order to run the tests again, I pressed the up arrow twice to access
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+```
+I then pressed the down arrow once to access 
+```
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
+

@@ -70,3 +70,4 @@ These are the passed tests on VS Code.
 To commit and push the changes to my Github account, you just have to presh commit changes on your github desktop page.
 
 Here's what it looks like.
+![Image](CommitChanges.png)

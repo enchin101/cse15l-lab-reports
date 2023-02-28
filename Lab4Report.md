@@ -48,7 +48,7 @@ index2 += 2
 
 Here's what it looks like on VS Code.
 
-Image Here
+![Image](NewCode.png)
 
 ## Step 8
 
@@ -61,3 +61,6 @@ I then pressed the down arrow once to access
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
 
+These are the passed tests on VS Code.
+
+![Image](TestsPassed.png)
